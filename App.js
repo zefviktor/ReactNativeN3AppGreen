@@ -2,6 +2,7 @@ import React from 'react';
 // import type {Node} from 'react';
 import {
   SafeAreaView,
+  ScrollView,
   StyleSheet,
   Text,
   // View,
@@ -10,7 +11,9 @@ import {
 function App() {
   return (
     <SafeAreaView>
-      <Text>Start</Text>
+      <ScrollView>
+        <Text>Подписка</Text>
+      </ScrollView>
     </SafeAreaView>
   );
 }

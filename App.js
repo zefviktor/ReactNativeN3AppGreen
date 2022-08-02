@@ -1,31 +1,13 @@
 import React from 'react';
-import Svg, {Circle, Image, SvgUri, SvgXml} from 'react-native-svg';
-import DoneIcon from './src/components/DoneIcon';
-import Watch from './src/components/Watch';
-import SvgComponent from './src/components/SvgComponent';
-import SomeSvg from './src/res/image/done.svg';
-import SomeSvg1 from './src/res/image/watch.svg';
-
-
-
-import {SafeAreaView, ScrollView, View, StyleSheet, Text} from 'react-native';
+import {SafeAreaView, ScrollView, StyleSheet, Text} from 'react-native';
+import SubscriptionBlock1 from './src/components/SubscriptionBlock1';
 
 function App() {
-
   return (
     <SafeAreaView style={styles.container}>
-      <DoneIcon/>
-      <Watch/>
-      <SvgComponent/>
-      <SomeSvg heigh={40} width={40}/>
-      <SomeSvg1 heigh={40} width={40}/>
-
-
       <ScrollView>
         <Text style={styles.title}>Подписка</Text>
-        <View style={styles.price}>
-          <Text style={styles.title}>Уникально низкая цена только сейчас</Text>
-        </View>
+        <SubscriptionBlock1/>
       </ScrollView>
     </SafeAreaView>
   );

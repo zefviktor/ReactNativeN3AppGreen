@@ -1,8 +1,12 @@
 import React from 'react';
-import Svg, {Circle, SvgUri, SvgXml} from 'react-native-svg';
+import Svg, {Circle, Image, SvgUri, SvgXml} from 'react-native-svg';
 import DoneIcon from './src/components/DoneIcon';
 import Watch from './src/components/Watch';
-// import SVGImg from './src/res/image/done.svg';
+import SvgComponent from './src/components/SvgComponent';
+import SomeSvg from './src/res/image/done.svg';
+import SomeSvg1 from './src/res/image/watch.svg';
+
+
 
 import {SafeAreaView, ScrollView, View, StyleSheet, Text} from 'react-native';
 
@@ -12,6 +16,11 @@ function App() {
     <SafeAreaView style={styles.container}>
       <DoneIcon/>
       <Watch/>
+      <SvgComponent/>
+      <SomeSvg heigh={40} width={40}/>
+      <SomeSvg1 heigh={40} width={40}/>
+
+
       <ScrollView>
         <Text style={styles.title}>Подписка</Text>
         <View style={styles.price}>

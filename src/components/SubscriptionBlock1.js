@@ -79,12 +79,14 @@ function SubscriptionBlock1() {
 
 const styles = StyleSheet.create({
   container: {
+    marginTop: 16,
     padding: 16,
     backgroundColor: '#81B578',
     borderRadius: 12,
   },
   //infoBlock
   infoBlock: {
+    marginBottom: 16,
     display: 'flex',
     flexDirection: 'row',
   },
@@ -117,7 +119,7 @@ const styles = StyleSheet.create({
   },
   //priceBlock
   priceBlock: {
-    marginTop: 16,
+    // marginTop: 8,
   },
   priceButton: {
     display: 'flex',

@@ -1,13 +1,15 @@
 import React from 'react';
 import {SafeAreaView, ScrollView, StyleSheet, Text} from 'react-native';
 import SubscriptionBlock1 from './src/components/SubscriptionBlock1';
+import SubscriptionBlock2 from './src/components/SubscriptionBlock2';
 
 function App() {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView>
-        <Text style={styles.title}>Подписка</Text>
-        <SubscriptionBlock1/>
+        <Text style={styles.title}>Subscription</Text>
+        <SubscriptionBlock1 />
+        <SubscriptionBlock2/>
       </ScrollView>
     </SafeAreaView>
   );
@@ -18,6 +20,7 @@ const styles = StyleSheet.create({
     margin: 16,
   },
   title: {
+    marginBottom: 8,
     // fontFamily: 'Inter',
     fontStyle: 'normal',
     fontWeight: '700',
@@ -26,9 +29,6 @@ const styles = StyleSheet.create({
     display: 'flex',
     alignItems: 'center',
     color: '#15284E',
-  },
-  price: {
-    backgroundColor: '#81B578',
   },
 });
 

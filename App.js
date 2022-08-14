@@ -2,6 +2,8 @@ import React from 'react';
 import {SafeAreaView, ScrollView, StyleSheet, Text} from 'react-native';
 import SubscriptionBlock1 from './src/components/SubscriptionBlock1';
 import SubscriptionBlock2 from './src/components/SubscriptionBlock2';
+import SubscriptionBlock3 from './src/components/SubscriptionBlock3';
+import SubscriptionBlock4 from './src/components/SubscriptionBlock4';
 
 function App() {
   return (
@@ -9,7 +11,9 @@ function App() {
       <ScrollView>
         <Text style={styles.title}>Subscription</Text>
         <SubscriptionBlock1 />
-        <SubscriptionBlock2/>
+        <SubscriptionBlock2 />
+        <SubscriptionBlock3 />
+        <SubscriptionBlock4 />
       </ScrollView>
     </SafeAreaView>
   );
@@ -17,10 +21,11 @@ function App() {
 
 const styles = StyleSheet.create({
   container: {
-    margin: 16,
+    backgroundColor: '#F9F9FE',
   },
   title: {
-    marginBottom: 8,
+    marginVertical: 8,
+    marginHorizontal: 16,
     // fontFamily: 'Inter',
     fontStyle: 'normal',
     fontWeight: '700',

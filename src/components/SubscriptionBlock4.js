@@ -1,24 +1,16 @@
 import React from 'react';
 import {View, StyleSheet, Text} from 'react-native';
-import BoltIcon from '../res/image/bolt.svg';
 
-function SubscriptionBlock2() {
+function SubscriptionBlock4() {
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, styles.shadowProp]}>
       <View style={styles.infoBlock}>
-        <View style={styles.infoBlockOne}>
-          <BoltIcon width={'100%'} heigh={'100%'} />
-        </View>
-        <View style={styles.infoBlockTwo}>
-          <Text style={styles.title}>
-            Why a paid subscription helps twice as fast to reach the goal?
-          </Text>
-        </View>
+        <Text style={styles.title}>Free for 15 days</Text>
       </View>
       <View style={styles.taskBlock}>
         <View style={styles.taskButton}>
           <View style={styles.tackButtonItem}>
-            <Text style={styles.tackButtonItemText}>To learn more</Text>
+            <Text style={styles.tackButtonItemText}>Taste</Text>
           </View>
         </View>
       </View>
@@ -31,30 +23,28 @@ const styles = StyleSheet.create({
     marginVertical: 8,
     marginHorizontal: 16,
     padding: 16,
-    backgroundColor: '#EF9611',
+    backgroundColor: '#FFFFFF',
     borderRadius: 12,
+  },
+  shadowProp: {
+    shadowOffset: {width: 0, height: 1},
+    shadowColor: '#15284e',
+    shadowOpacity: 0.1,
+    shadowRadius: 8,
   },
   //infoBlock
   infoBlock: {
     display: 'flex',
-    flexDirection: 'row',
-  },
-  infoBlockOne: {
-    flex: 1,
-  },
-  infoBlockTwo: {
-    flex: 2,
-    alignContent: 'space-between',
+    justifyContent: 'center',
   },
   title: {
+    textAlign: 'center',
     // fontFamily: 'Inter',
     fontStyle: 'normal',
     fontWeight: '700',
-    fontSize: 16,
-    lineHeight: 19,
-    display: 'flex',
-    alignItems: 'center',
-    color: '#FFFFFF',
+    fontSize: 18,
+    lineHeight: 22,
+    color: '#15284E',
   },
   //tackBlock
   taskBlock: {
@@ -63,7 +53,7 @@ const styles = StyleSheet.create({
   taskButton: {
     display: 'flex',
     flexDirection: 'row',
-    marginTop: 8,
+    marginTop: 16,
     borderRadius: 12,
   },
   tackButtonItem: {
@@ -71,9 +61,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    // border: 2px solid,
-    borderWidth: 2,
-    borderColor: '#FFFFFF',
+    backgroundColor: '#2559D6',
     borderRadius: 8,
     padding: 16,
     gap: 10,
@@ -90,4 +78,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SubscriptionBlock2;
+export default SubscriptionBlock4;

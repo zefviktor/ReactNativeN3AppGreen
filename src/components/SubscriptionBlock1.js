@@ -79,14 +79,14 @@ function SubscriptionBlock1() {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 16,
+    marginVertical: 8,
+    marginHorizontal: 16,
     padding: 16,
     backgroundColor: '#81B578',
     borderRadius: 12,
   },
   //infoBlock
   infoBlock: {
-    marginBottom: 16,
     display: 'flex',
     flexDirection: 'row',
   },

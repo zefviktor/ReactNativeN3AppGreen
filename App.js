@@ -26,9 +26,8 @@ const styles = StyleSheet.create({
   title: {
     marginVertical: 8,
     marginHorizontal: 16,
-    // fontFamily: 'Inter',
+    fontFamily: 'Inter-Bold',
     fontStyle: 'normal',
-    fontWeight: '700',
     fontSize: 28,
     lineHeight: 32,
     display: 'flex',

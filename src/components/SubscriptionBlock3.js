@@ -21,9 +21,6 @@ const styles = StyleSheet.create({
   container: {
     marginVertical: 8,
     marginHorizontal: 16,
-    // padding: 16,
-    // backgroundColor: '#FFFFFF',
-    // borderRadius: 12,
   },
   shadowProp: {
     shadowOffset: {width: 0, height: 1},
@@ -38,7 +35,7 @@ const styles = StyleSheet.create({
   },
   title: {
     marginBottom: 8,
-    // fontFamily: 'Inter',
+    fontFamily: 'Inter-Bold',
     fontStyle: 'normal',
     fontWeight: '700',
     fontSize: 16,
@@ -46,9 +43,8 @@ const styles = StyleSheet.create({
     color: '#15284E',
   },
   text: {
-    // fontFamily: 'Inter',
+    fontFamily: 'Inter-Regular',
     fontStyle: 'normal',
-    fontWeight: '400',
     fontSize: 14,
     lineHeight: 18,
     color: '#15284E',
@@ -74,9 +70,8 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   tackButtonItemText: {
-    // fontFamily: 'Inter',
+    fontFamily: 'Inter-SemiBold',
     fontStyle: 'normal',
-    fontWeight: '600',
     fontSize: 14,
     lineHeight: 18,
     display: 'flex',

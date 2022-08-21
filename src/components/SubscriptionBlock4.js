@@ -39,9 +39,8 @@ const styles = StyleSheet.create({
   },
   title: {
     textAlign: 'center',
-    // fontFamily: 'Inter',
+    fontFamily: 'Inter-Bold',
     fontStyle: 'normal',
-    fontWeight: '700',
     fontSize: 18,
     lineHeight: 22,
     color: '#15284E',
@@ -67,9 +66,8 @@ const styles = StyleSheet.create({
     gap: 10,
   },
   tackButtonItemText: {
-    // fontFamily: 'Inter',
+    fontFamily: 'Inter-SemiBold',
     fontStyle: 'normal',
-    fontWeight: '600',
     fontSize: 14,
     lineHeight: 18,
     display: 'flex',

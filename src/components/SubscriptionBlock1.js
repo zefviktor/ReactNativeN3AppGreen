@@ -98,9 +98,8 @@ const styles = StyleSheet.create({
     alignContent: 'space-between',
   },
   title: {
-    // fontFamily: 'Inter',
+    fontFamily: 'Inter-Bold',
     fontStyle: 'normal',
-    fontWeight: '700',
     fontSize: 16,
     lineHeight: 19,
     display: 'flex',
@@ -108,9 +107,8 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
   },
   text: {
-    // fontFamily: 'Inter',
+    fontFamily: 'Inter-Medium',
     fontStyle: 'normal',
-    fontWeight: '500',
     fontSize: 12,
     lineHeight: 15,
     display: 'flex',
@@ -136,9 +134,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   priceButtonItemMonthText: {
-    // fontFamily: 'Inter',
+    fontFamily: 'Inter-Bold',
     fontStyle: 'normal',
-    fontWeight: '700',
     fontSize: 18,
     lineHeight: 22,
     display: 'flex',
@@ -146,7 +143,7 @@ const styles = StyleSheet.create({
     color: '#15284E',
   },
   priceButtonItemOldText: {
-    // fontFamily: 'Inter',
+    fontFamily: 'Inter-SemiBold',
     fontStyle: 'normal',
     fontWeight: '600',
     fontSize: 14,
@@ -156,9 +153,8 @@ const styles = StyleSheet.create({
     color: '#919AAF',
   },
   priceButtonItemNewText: {
-    // fontFamily: 'Inter',
+    fontFamily: 'Inter-SemiBold',
     fontStyle: 'normal',
-    fontWeight: '600',
     fontSize: 14,
     lineHeight: 18,
     display: 'flex',
